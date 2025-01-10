@@ -13,7 +13,7 @@ import { app, server } from './lib/socket.js';
 dotenv.config();
 
 
-const PORT = process.env.PORT || 5001
+const PORT = process.env.PORT 
 
 const __dirname = path.resolve();
 if (process.env.NODE_ENV === "production") {
